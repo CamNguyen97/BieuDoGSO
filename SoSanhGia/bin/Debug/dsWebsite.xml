@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Websites>
+  <Website ID="788348b2-05d0-46f5-9640-15eb4483b4de" Name="https://www.thegioididong.com" Link="https://www.thegioididong.com" XSearch="https://www.thegioididong.com/tim-kiem?key={0}" XParent="/html/body/section/aside[1]/ul[@class=&quot;listsearch&quot;]/li">
+    <InfoWebsite>
+      <Name>figure/h3[1]</Name>
+      <Image>a/img</Image>
+      <Price>figure/strong[1]</Price>
+    </InfoWebsite>
+  </Website>
+</Websites>

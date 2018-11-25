@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <XProductObject Name="thegioididong" LinkToHome="https://www.thegioididong.com">
+    <XFormatSearch>https://www.thegioididong.com/tim-kiem?key={0}</XFormatSearch>
+    <XParentList>/html/body/section/aside[1]/ul/li</XParentList>
+    <XImageUrl>a/img</XImageUrl>
+    <XName>a/h3</XName>
+    <XPrice>a/strong</XPrice>
+  </XProductObject>
+  <XProductObject Name="dienmayxanh" LinkToHome="https://www.dienmayxanh.com">
+    <XFormatSearch>https://www.dienmayxanh.com/tag/{0}</XFormatSearch>
+    <XParentList>/html/body/section/aside[1]/ul/li</XParentList>
+    <XImageUrl>a/img</XImageUrl>
+    <XName>a/h3</XName>
+    <XPrice>a/strong</XPrice>
+  </XProductObject>
+  <XProductObject Name="fptshop.com.vn" LinkToHome="https://fptshop.com.vn">
+    <XFormatSearch>https://fptshop.com.vn/tim-kiem/{0}</XFormatSearch>
+    <XParentList>//*[@id="category-products"]/div[@class="fs-lpitem"]</XParentList>
+    <XImageUrl>a/p[1]/img</XImageUrl>
+    <XName>a/h3[@class="fs-icname"]</XName>
+    <XPrice>a/p[@class="fs-icpri"]/text()</XPrice>
+  </XProductObject>
+  <XProductObject Name="vienthonga.vn" LinkToHome="https://vienthonga.vn">
+    <XFormatSearch>https://vienthonga.vn/tim-kiem?q={0}</XFormatSearch>
+    <XParentList>//*[@id="product_search"]/div[@class="masonry-item"]</XParentList>
+    <XImageUrl>div[1]/a[1]/img</XImageUrl>
+    <XName>div/div[2]/h3</XName>
+    <XPrice>div/div[2]/div</XPrice>
+  </XProductObject>
+  <XProductObject Name="nguyenkim.com" LinkToHome="https://www.nguyenkim.com">
+    <XFormatSearch>https://www.nguyenkim.com/tim-kiem.html?subcats=Y&amp;pcode_from_q=Y&amp;pshort=Y&amp;pfull=Y&amp;pname=Y&amp;pkeywords=Y&amp;search_performed=Y&amp;q={0}</XFormatSearch>
+    <XParentList>//*[@id="grid-viewmore-page"]/div[@class="nk-fgp-items"]</XParentList>
+    <XImageUrl>a/div[1]/img</XImageUrl>
+    <XName>a/p[@class="nk-product-name-txt"]</XName>
+    <XPrice>a/div[2]/span[2]/span</XPrice>
+  </XProductObject>
+  <XProductObject Name="laptop88.vn" LinkToHome="http://laptop88.vn">
+    <XFormatSearch>http://laptop88.vn/tim?q={0}</XFormatSearch>
+    <XParentList>//*[@id="main"]/div/div[3]/ul[@class="ul"]/li</XParentList>
+    <XImageUrl>div/a[1]/img</XImageUrl>
+    <XName>div/a[2]</XName>
+    <XPrice>div/span[1]</XPrice>
+  </XProductObject>
+</Database>
